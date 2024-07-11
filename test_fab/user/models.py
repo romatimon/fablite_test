@@ -7,12 +7,12 @@ User Model
 
 Модель, представляющая пользователя в системе.
 
-Attributes:
+Атрибуты:
     username (str): Уникальное имя пользователя.
     email (str): Уникальный адрес электронной почты пользователя.
     password_hash (str): Хеш пароля пользователя.
 
-Methods:
+Методы:
     set_password(password: str) -> None:
         Устанавливает хеш пароля пользователя.
     check_password(password: str) -> bool:
